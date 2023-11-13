@@ -1,4 +1,38 @@
-.navigation a:link {
+a:link {
   color: blue;
   text-decoration: underline;
+} 
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: lightblue;
+}
+
+.nav-link:hover {
+  background-color: lightskyblue;
+  color: gold;
+}
+
+.nav-link:active {
+  font-weight: bold;  
+}
+
+a.btn {
+  /* // display: inline-block; */
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a.btn:hover {
+  font-size: 25px;
+}
+
+a.btn:active {
+  margin-top: 10px;
 }
