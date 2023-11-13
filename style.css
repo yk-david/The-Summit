@@ -35,4 +35,21 @@ a.btn:hover {
 
 a.btn:active {
   margin-top: 10px;
+  color: white;
+  background-color: black;
+}
+
+.activity {
+  box-shadow: 7px 7px black;
+}
+
+a.activity:hover {
+  font-size: 2.5rem;
+}
+
+.activity:active {
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: none;
+  font-weight: bold;
 }
